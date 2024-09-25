@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Color Picker Tool
 
-First, run the development server:
+### Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a **Color Picker Tool** built with **Next.js** and **TypeScript**. It allows users to select a color using a color input, displays the selected color in both **HEX** and **RGB** formats, and provides the ability to copy the color value to the clipboard. The design is focused on a modern **dark-themed UI** with stylish fonts and a sleek, responsive layout optimized for mobile and desktop views.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Color Input**: Select any color using an HTML5 color input.
+- **Display Values**: Shows the selected color in both **HEX** and **RGB** formats.
+- **Copy to Clipboard**: Users can copy the selected color code to the clipboard with a single click.
+- **Stylish UI**: A sleek, dark-themed design with smooth fonts and a modern look.
+- **Mobile Friendly**: Fully responsive design, ensuring that the layout adjusts correctly for mobile and tablet devices.
+- **Footer**: Contains project details and copyright information.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Technologies Used
 
-## Learn More
+- **Next.js**: A React-based framework used for building fast and scalable web applications.
+- **TypeScript**: Ensures type safety and better code management.
+- **CSS**: Custom styling for the color picker box, input fields, and buttons with a modern dark theme.
+  
+### Setup and Installation
 
-To learn more about Next.js, take a look at the following resources:
+To set up the project locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/your-username/color-picker.git
+   ```
 
-## Deploy on Vercel
+2. Navigate into the project directory:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   cd color-picker
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application running.
+
+### Deployment
+
+This project is deployed on **Vercel**. You can access the live version [https://color-picker-project-wf2i.vercel.app/].
+
+
+
+
